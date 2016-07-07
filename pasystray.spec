@@ -22,7 +22,7 @@ on the fly between sources/sinks without restarting the client applications.
 
 
 %prep
-%setup -q
+%setup -q -n pasystray-pasystray-%{version}
 autoreconf -fvi
 
 
